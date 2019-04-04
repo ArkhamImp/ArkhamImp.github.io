@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Comfortaa:300,300italic,400,400italic,700,700italic|Indie Flower:300,300italic,400,400italic,700,700italic|Dancing Script:300,300italic,400,400italic,700,700italic|Ubuntu:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=7.1.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=7.1.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=7.1.0">
+
+
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=7.1.0" color="#222">
+
+
+  <link rel="manifest" href="/images/site.webmanifest">
+
+
+  <meta name="msapplication-config" content="/images/browserconfig.xml">
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.1.0',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="2019 Mingyang Zhang, Xin Wang, Fuming Fang, Haizhou Li, Junichi Yamagishi, “Joint training framework for text-to-speech and voice conversion using multi-source Tacotron and WaveNet”, April. 2019, Subm">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Publications">
+<meta property="og:url" content="http://yoursite.com/publications/index.html">
+<meta property="og:site_name" content="MY&#39;s Personal Website">
+<meta property="og:description" content="2019 Mingyang Zhang, Xin Wang, Fuming Fang, Haizhou Li, Junichi Yamagishi, “Joint training framework for text-to-speech and voice conversion using multi-source Tacotron and WaveNet”, April. 2019, Subm">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-04-04T02:38:14.262Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Publications">
+<meta name="twitter:description" content="2019 Mingyang Zhang, Xin Wang, Fuming Fang, Haizhou Li, Junichi Yamagishi, “Joint training framework for text-to-speech and voice conversion using multi-source Tacotron and WaveNet”, April. 2019, Subm">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="http://yoursite.com/publications/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Publications | MY's Personal Website</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">MY's Personal Website</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">National University of Singapore</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-publications menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/publications/" rel="section"><i class="menu-item-icon fa fa-fw fa-book"></i> <br>Publications</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+    
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">Publications
+
+</h1>
+
+<div class="post-meta">
+  
+  
+
+
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+        
+        
+          <h1 id="2019"><a href="#2019" class="headerlink" title="2019"></a>2019</h1><ul>
+<li><strong>Mingyang Zhang, Xin Wang, Fuming Fang, Haizhou Li, Junichi Yamagishi, “Joint training framework for text-to-speech and voice conversion using multi-source Tacotron and WaveNet”, April. 2019, Submitted to Interspeech 2019, Graz, Austria</strong><br><a href="http://arxiv.org/abs/1903.12389" target="_blank" rel="noopener">preptint</a>, <a href="https://nii-yamagishilab.github.io/hybrid-TTS-VC/" target="_blank" rel="noopener">samples</a></li>
+<li><strong>ZHANG Mingyang;ZHA Cheng;Tashpolat Nizamidin;XU Xinzhou;ZHAO Li, “Continuous speech emotion trend detection based on data field emotion space and shuffled frog-leaping algorithm”, Acta Acustica, 2019, v.44(01) 12-19</strong></li>
+</ul>
+<h1 id="2018"><a href="#2018" class="headerlink" title="2018"></a>2018</h1><ul>
+<li><strong>M. Zhang, B. Sisman, S. S. Rallabandi, H. Li and L. Zhao, “Error Reduction Network for DBLSTM-based Voice Conversion,” <em>2018 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)</em>, Honolulu, HI, USA, 2018, pp. 823-828.</strong><br><a href="http://www.apsipa.org/proceedings/2018/pdfs/0000823.pdf" target="_blank" rel="noopener">paper</a>, <a href="https://arkhamimp.github.io/ErrorReductionNetwork/" target="_blank" rel="noopener">samples</a></li>
+<li><strong>Sisman B, Zhang M, Li H. A Voice Conversion Framework with Tandem Feature Sparse Representation and Speaker-Adapted WaveNet Vocoder. <em>Proc. Interspeech 2018</em>, 2018: 1978-1982.</strong><br><a href="https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1131.pdf" target="_blank" rel="noopener">paper</a></li>
+<li><strong>B. Sisman, M. Zhang, S. Sakti, H. Li and S. Nakamura, “Adaptive Wavenet Vocoder for Residual Compensation in GAN-Based Voice Conversion,” <em>2018 IEEE Spoken Language Technology Workshop (SLT)</em>, Athens, Greece, 2018, pp. 282-289.</strong><br><a href="https://ieeexplore.ieee.org/document/8639507" target="_blank" rel="noopener">paper</a></li>
+<li><strong>Xiao, J., Yang, S., Zhang, M., Sisman, B., Huang, D., Xie, L., … &amp; Li, H. The I2R-NWPU-NUS Text-to-Speech System for Blizzard Challenge 2018.</strong><br><a href="http://festvox.org/blizzard/bc2018/I2R-NWPU-NUS_BlizzardChallenge2018.pdf" target="_blank" rel="noopener">paper</a></li>
+</ul>
+<h1 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h1><ul>
+<li><strong>M. Zhang, C. Zou, R. Liang and L. Zhao, “Speech Recognition and Synthesis Algorithm for Digital Hearing Aids under Background Noise,” <em>2016 International Conference on Information System and Artificial Intelligence (ISAI)</em>, Hong Kong, 2016, pp. 347-351.</strong><br><a href="https://ieeexplore.ieee.org/abstract/document/7816733" target="_blank" rel="noopener">paper</a></li>
+</ul>
+
+        
+      </div>
+      
+      
+      
+    </div>
+    
+
+
+
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/uploads/photo_zhang_mingyang.jpg" alt="Mingyang Zhang">
+            
+              <p class="site-author-name" itemprop="name">Mingyang Zhang</p>
+              <div class="site-description motion-element" itemprop="description">4th year PhD student</div>
+          </div>
+
+          
+
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/ArkhamImp" title="GitHub &rarr; https://github.com/ArkhamImp" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:mingyang.zhang@u.nus.edu" title="E-Mail &rarr; mailto:mingyang.zhang@u.nus.edu" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://www.researchgate.net/profile/Mingyang_Zhang13" title="ReserchGate &rarr; https://www.researchgate.net/profile/Mingyang_Zhang13" rel="noopener" target="_blank"><i class="fa fa-fw fa-beer"></i>ReserchGate</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://steamcommunity.com/id/miyaca" title="Steam &rarr; https://steamcommunity.com/id/miyaca" rel="noopener" target="_blank"><i class="fa fa-fw fa-steam"></i>Steam</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#2019"><span class="nav-number">1.</span> <span class="nav-text">2019</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2018"><span class="nav-number">2.</span> <span class="nav-text">2018</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2016"><span class="nav-number">3.</span> <span class="nav-text">2016</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-superpowers"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Mingyang Zhang</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="Symbols count total">1k</span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="Reading time total">1 mins.</span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="Total Visitors">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="Total Views">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+  
+  <script color="18,180,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.0"></script>
+
+  <script src="/js/motion.js?v=7.1.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.1.0"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.1.0"></script>
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.1.0"></script>
+<script src="/js/post-details.js?v=7.1.0"></script>
+
+
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.0"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
